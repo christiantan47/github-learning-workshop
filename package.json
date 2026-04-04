@@ -1,0 +1,30 @@
+{
+  "name": "github-learning-workshop",
+  "version": "0.1.0",
+  "description": "A hands-on project to learn GitHub features from beginner to advanced",
+  "main": "index.js",
+  "scripts": {
+    "dev": "echo 'Development server not yet configured. Will be set up in Phase 1.'",
+    "build": "echo 'Build script not yet configured. Will be set up in Phase 2.'",
+    "test": "echo 'No tests yet. Will be set up in Phase 2.'",
+    "lint": "echo 'No linter configured yet. Will be set up in Phase 2.'"
+  },
+  "keywords": [
+    "github",
+    "git",
+    "learning",
+    "workshop",
+    "tutorial",
+    "education"
+  ],
+  "author": "christiantan47",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christiantan47/github-learning-workshop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/christiantan47/github-learning-workshop/issues"
+  },
+  "homepage": "https://github.com/christiantan47/github-learning-workshop#readme"
+}

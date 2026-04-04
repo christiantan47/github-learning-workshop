@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GitHub Learning Workshop - A hands-on project to learn GitHub features">
+    <title>GitHub Learning Workshop</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 10px;
+            padding: 40px;
+            max-width: 800px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 2.5rem;
+        }
+        
+        .phase-badge {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            margin-bottom: 20px;
+        }
+        
+        h2 {
+            color: #555;
+            margin: 20px 0 10px;
+            font-size: 1.5rem;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            color: #666;
+        }
+        
+        .phase {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+            border-left: 4px solid #667eea;
+        }
+        
+        .phase.completed {
+            border-left-color: #28a745;
+        }
+        
+        .phase.current {
+            border-left-color: #f39c12;
+            background: #fff8e7;
+        }
+        
+        .phase h3 {
+            color: #333;
+            margin-bottom: 5px;
+        }
+        
+        .phase p {
+            color: #666;
+            margin: 0;
+            font-size: 0.9rem;
+        }
+        
+        .status {
+            color: #28a745;
+            font-weight: bold;
+        }
+        
+        .status.current {
+            color: #f39c12;
+        }
+        
+        .status.upcoming {
+            color: #999;
+        }
+        
+        ul {
+            margin: 10px 0 10px 20px;
+        }
+        
+        li {
+            margin: 5px 0;
+            color: #666;
+        }
+        
+        .footer {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            text-align: center;
+            color: #999;
+            font-size: 0.9rem;
+        }
+        
+        a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span class="phase-badge">Phase 0 Complete</span>
+        <h1>GitHub Learning Workshop</h1>
+        <p>A hands-on project to master GitHub from beginner to advanced.</p>
+        
+        <h2>Project Progress</h2>
+        
+        <div class="phase completed">
+            <h3>✅ Phase 0: Foundation Setup</h3>
+            <p><span class="status">Completed</span></p>
+            <ul>
+                <li>Repository created and initialized</li>
+                <li>Git configuration verified</li>
+                <li>.gitignore, LICENSE, README.md added</li>
+                <li>Basic project structure established</li>
+            </ul>
+        </div>
+        
+        <div class="phase current">
+            <h3>🔄 Phase 1: Core Collaboration</h3>
+            <p><span class="status current">Coming Next</span></p>
+            <ul>
+                <li>Branching strategies</li>
+                <li>Pull Requests workflow</li>
+                <li>Issues and Project boards</li>
+                <li>PR and Issue templates</li>
+            </ul>
+        </div>
+        
+        <div class="phase">
+            <h3>⏳ Phase 2: GitHub Automation</h3>
+            <p><span class="status upcoming">Upcoming</span></p>
+            <ul>
+                <li>GitHub Actions (CI/CD)</li>
+                <li>Automated testing</li>
+                <li>GitHub Pages deployment</li>
+                <li>Branch protection rules</li>
+            </ul>
+        </div>
+        
+        <div class="phase">
+            <h3>⏳ Phase 3: Advanced Workflows</h3>
+            <p><span class="status upcoming">Upcoming</span></p>
+            <ul>
+                <li>Rebasing vs merging</li>
+                <li>Git hooks with Husky</li>
+                <li>Conflict resolution</li>
+                <li>Interactive rebase</li>
+            </ul>
+        </div>
+        
+        <div class="phase">
+            <h3>⏳ Phase 4: Expert Features</h3>
+            <p><span class="status upcoming">Upcoming</span></p>
+            <ul>
+                <li>GitHub API integration</li>
+                <li>Security features</li>
+                <li>GitHub Packages</li>
+                <li>Repository templates</li>
+            </ul>
+        </div>
+        
+        <div class="footer">
+            <p>
+                Made with ❤️ for GitHub learners | 
+                <a href="https://github.com/christiantan47/github-learning-workshop">View on GitHub</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
