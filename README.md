@@ -13,7 +13,7 @@ This project is structured in **progressive phases** to build your GitHub expert
 - Basic Git workflow (init, add, commit, push, pull)
 - Viewing history with `git log` and `git diff`
 
-### Phase 1: Core Collaboration
+### Phase 1: Core Collaboration ✅
 - Branching strategies and naming conventions
 - Pull Requests (PRs) and code review workflow
 - Issues, milestones, and labels
