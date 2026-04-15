@@ -8,7 +8,8 @@
     "build": "echo 'Build complete - static HTML project'",
     "test": "echo 'Running tests... ✓ All tests passed'",
     "lint": "echo 'Running linter... ✓ No issues found'",
-    "validate": "echo 'Validating HTML... ✓ HTML is valid'"
+    "validate": "echo 'Validating HTML... ✓ HTML is valid'",
+    "prepare": "husky"
   },
   "keywords": [
     "github",
@@ -22,10 +23,16 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/christiantan47/github-learning-workshop.git"
+    "url": "git+https://github.com/christiantan47/github-learning-workshop.git"
   },
   "bugs": {
     "url": "https://github.com/christiantan47/github-learning-workshop/issues"
   },
-  "homepage": "https://christiantan47.github.io/github-learning-workshop"
+  "homepage": "https://christiantan47.github.io/github-learning-workshop",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
 }

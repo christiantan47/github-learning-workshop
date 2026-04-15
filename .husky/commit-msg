@@ -1,0 +1,17 @@
+echo "🔍 Checking commit message format..."
+commit_msg=$(cat "$1")
+if ! echo "$commit_msg" | grep -qE "^(feat|fix|docs|style|refactor|test|chore|ci|perf|build|hotfix)(\(.+\))?: .{1,100}"; then
+  echo "❌ Invalid commit message format!"
+  echo ""
+  echo "Expected format: <type>(<scope>): <description>"
+  echo ""
+  echo "Types: feat, fix, docs, style, refactor, test, chore, ci, perf, build, hotfix"
+  echo ""
+  echo "Examples:"
+  echo "  feat: add user login page"
+  echo "  fix(auth): resolve login timeout issue"
+  echo "  docs: update README instructions"
+  echo "  chore(deps): update dependencies"
+  exit 1
+fi
+echo "✅ Commit message format is valid!"
